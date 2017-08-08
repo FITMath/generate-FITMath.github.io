@@ -12,7 +12,7 @@ generate: $(HUGOFILE)
 	$(HUGOGEN)
 
 serve: $(HUGOFILE)
-	$(HUGOGEN) -w -D server
+	$(HUGOGEN) -w --verbose server
 
 clean:
 	$(RM) -r categories content css js tags themes
