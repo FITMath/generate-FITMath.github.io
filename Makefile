@@ -21,3 +21,9 @@ FILE ?= tmp.html
 FILEFLAGS ?=
 new: $(HUGOFILE)
 	$(HUGOBASIC) new "$(FILE)" $(FILEFLAGS)
+
+saveChanges:
+	git commit -a -m 'Update to generated files after commit `git rev-parse HEAD`'
+
+pushChanges: saveChanges
+	git push
