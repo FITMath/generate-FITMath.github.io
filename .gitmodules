@@ -1,3 +1,3 @@
 [submodule "gen/themes/FITMathMinimal"]
 	path = gen/themes/FITMathMinimal
-	url = git@github.com:FITMath/FITMathMinimal.git
+	url = https://github.com/FITMath/FITMathMinimal.git
