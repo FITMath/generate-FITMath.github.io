@@ -23,7 +23,7 @@ new: $(HUGOFILE)
 	$(HUGOBASIC) new "$(FILE)" $(FILEFLAGS)
 
 saveChanges:
-	git commit -a -m 'Update to generated files after commit `git rev-parse HEAD`'
+	git commit -a -m 'Update to generated files after commit $(shell git rev-parse HEAD)'
 
-pushChanges: saveChanges
+pushChanges:
 	git push
