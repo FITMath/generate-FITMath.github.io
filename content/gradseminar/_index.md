@@ -23,12 +23,34 @@ The seminar is currently organized by Adam Prinkey. Please send an email to <a h
 {{% seminarSetup %}}
 
 {{< seminarEntry date="September" time="9:15am" loc="MAC" name="Adam Prinkey" affiliation="Math Sciences Department<br /> Florida Tech" title="title" >}}
-Double degenerate equation
-\[
-u_t + (u^m)_{xx} = 0
-\]
+We consider the problem of interface development and local behavior
+of solutions near the interface in the following Cauchy problem for
+the nonlinear double degenerate parabolic PDE with reaction:
 
-Testing!
+\[
+u_{t}=((u^{m})_{x}\begin{vmatrix}(u^{m})_{x}\end{vmatrix}^{p-1})_{x}-bu^{\beta},
+~x\in\mathbb{R},
+~t>0;\quad u(x,0)=C(-x)_{+}^{\alpha}
+\]
+The problem arises in applications involving turbulant filtration
+of material through a porous media. The interface behavior is determined
+by the competition between the diffusion and the reaction terms. The
+full solution for the reaction-diffusion equation ($p=1$) was given
+in 2000 [Abdulla and King, SIAM J. Math. Anal., 32, 2(2000), 235-260]
+and 2002 [Abdulla, Nonlinear Analysis, 50, 4(2002), 541-560].
+Our aim is to apply the methods of these papers to give a full classification
+for double degenerate reaction-diffusion equations with ($p>1, mp>1$).
+First we apply the nonlinear scaling method to identify which term
+dominates in the various regions of the $(\alpha,\beta)$-parameter
+space. We then construct super/subsolutions and apply special comparison
+theorems in irregular domains to prove explicit formulae for the interface
+and local solution, with precise estimations up to constant coefficients.
+The theory of double degenerate parabolic PDEs in irregular domains
+was developed in this work. A WENO scheme is applied and supports
+our estimates. 
+
+
+
 {{< /seminarEntry >}}
 
 {{% seminarBreakdown %}}
