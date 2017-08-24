@@ -1,29 +1,11 @@
-HUGOFILE := gen/config.toml
-HUGOBASIC = hugo -s "gen"
-HUGOGEN := $(HUGOBASIC) -d "`pwd`"
+HUGOFILE := config.toml
+HUGOBASIC = hugo
+HUGOGEN := $(HUGOBASIC)
 
 all: generate
-
-$(HUGOFILE):
-	hugo new site gen
-	git submodule add git@github.com:FITMath/FITMathMinimal.git gen/themes/FITMathMinimal
 
 generate: $(HUGOFILE)
 	$(HUGOGEN)
 
 serve: $(HUGOFILE)
 	$(HUGOGEN) -w --verbose server
-
-clean:
-	$(RM) -r categories content css js tags themes
-
-FILE ?= tmp.html
-FILEFLAGS ?=
-new: $(HUGOFILE)
-	$(HUGOBASIC) new "$(FILE)" $(FILEFLAGS)
-
-saveChanges:
-	git commit -a -m 'Update to generated files after commit $(shell git rev-parse HEAD)'
-
-pushChanges:
-	git push
