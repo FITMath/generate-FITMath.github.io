@@ -1,0 +1,3 @@
+[submodule "themes/FITMathMinimal"]
+	path = themes/FITMathMinimal
+	url = https://github.com/FITMath/FITMathMinimal.git

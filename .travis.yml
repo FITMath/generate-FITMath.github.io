@@ -2,8 +2,7 @@ install:
   - rm -rf public || exit 0
 
 script:
-  - cd gen
-  - ../binaries/hugo --verbose
+  - binaries/hugo --verbose
 
 # deploy:
 #   provider: pages
