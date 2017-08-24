@@ -1,18 +1,20 @@
-# fitmath.github.io
+# generate-fitmath.github.io
 
 [fitmath.github.io](http://fitmath.github.io) is a static website built using [Hugo](https://gohugo.io).
 
 Go [here to get hugo](https://gohugo.io/getting-started/installing).
 
+This repository hosts the files used to generate fitmath.github.io.
+
 ## Getting Started
 
 To get started, clone this repository using git, e.g. from the folder into which you would like FITMath.github.io to appear, run
 
-    git clone git@github.com:FITMath/fitmath.github.io.git
+    git clone git@github.com:FITMath/generate-fitmath.github.io.git
 
 or
 
-    git clone https://github.com/FITMath/fitmath.github.io.git
+    git clone https://github.com/FITMath/generate-fitmath.github.io.git
 
 If you have already cloned the repository, update your working copy using `git pull`.
 
