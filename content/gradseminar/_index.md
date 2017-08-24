@@ -27,6 +27,8 @@ Double degenerate equation
 \[
 u_t + (u^m)_{xx} = 0
 \]
+
+Testing!
 {{< /seminarEntry >}}
 
 {{% seminarBreakdown %}}
