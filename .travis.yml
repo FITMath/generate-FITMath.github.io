@@ -1,0 +1,16 @@
+install:
+  - rm -rf public || exit 0
+
+script:
+  - cd gen
+  - ../binaries/hugo --verbose
+
+# deploy:
+#   provider: pages
+#   repo: FITMath/fitmath.github.io
+#   skip_cleanup: true
+#   local_dir: public
+#   target_branch: master
+#   github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
+#   on:
+#     branch: master

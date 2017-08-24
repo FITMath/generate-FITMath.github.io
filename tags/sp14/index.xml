@@ -1,24 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Sp14 on FITMath</title>
-    <link>https://fitmath.github.io/tags/sp14/</link>
-    <description>Recent content in Sp14 on FITMath</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 01 Apr 2014 15:59:13 -0400</lastBuildDate>
-    
-	<atom:link href="https://fitmath.github.io/tags/sp14/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Spring 2014</title>
-      <link>https://fitmath.github.io/gradseminar/sp14/</link>
-      <pubDate>Tue, 01 Apr 2014 15:59:13 -0400</pubDate>
-      
-      <guid>https://fitmath.github.io/gradseminar/sp14/</guid>
-      <description>.left_col {padding-top: 1em; padding-bottom: 1em; padding-left: 1em; line-height: 150%; white-space:nowrap;}.center_col {line-height: 150%;}.right_col {line-height: 150%; text-align: justify;}.regular-text {font-family: &#34;Times New Roman&#34;, Times, serif !important; font-size: 80%;}.sub {font-size: 1em;}.main {font-family: Georgia, serif; font-size: 18px; font-weight: normal; background: #000; color: #FFF; padding: 4px 10px; margin-left: -10px; margin-right: -10px;}ul li a:focus { outline: none; } Date and Time   Speaker   Title &amp;amp; Abstract Jan.</description>
-    </item>
-    
-  </channel>
-</rss>

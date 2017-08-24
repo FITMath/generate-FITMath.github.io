@@ -1,0 +1,12 @@
+<tr>
+<td style="width: 23%;">
+<div class="left_col">{{with .Get "date" }}{{ . }}{{ end }}<br /> {{with .Get "time" }}{{ . }}{{ end }}<br /> {{with .Get "loc" }}{{ . }}{{ end }}</div>
+</td>
+<td style="width: 23%;">
+<div class="center_col">{{with .Get "name" }}{{ . }}{{ else }} Speaker TBA {{ end }}<br />{{with .Get "affiliation" }}{{ . | safeHTML }}{{ end }}</div>
+</td>
+<td style="min-width: 50%;">
+<div class="right_col"><strong>Title:</strong> {{ with .Get "title" }}{{ . }}{{ else }}TBA{{ end }}
+{{ with .Inner }}<br /><strong>Abstract:</strong> <p>{{ . | safeHTML }} </p>{{ end }}</div>
+</td>
+</tr>
