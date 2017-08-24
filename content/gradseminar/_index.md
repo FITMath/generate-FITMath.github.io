@@ -53,4 +53,10 @@ our estimates.
 
 {{< /seminarEntry >}}
 
+{{< seminarEntry date="September" time="9:35am" loc="MAC" name="Ali" affiliation="Math Sciences Department<br /> Florida Tech" title="title" >}}
+Ali's Abstract
+
+{{< /seminarEntry >}}
+
+
 {{% seminarBreakdown %}}
