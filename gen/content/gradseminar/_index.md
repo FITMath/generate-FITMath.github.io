@@ -22,8 +22,11 @@ The seminar is currently organized by Adam Prinkey. Please send an email to <a h
 
 {{% seminarSetup %}}
 
-{{< seminarEntry date="date" time="time" loc="location" name="name" affiliation="Math Sciences Department<br /> Florida Tech" title="title" >}}
-Abstract goes here
+{{< seminarEntry date="September" time="9:15am" loc="MAC" name="Adam Prinkey" affiliation="Math Sciences Department<br /> Florida Tech" title="title" >}}
+Double degenerate equation
+\[
+u_t + (u^m)_{xx} = 0
+\]
 {{< /seminarEntry >}}
 
 {{% seminarBreakdown %}}
