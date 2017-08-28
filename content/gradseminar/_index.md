@@ -22,39 +22,19 @@ The seminar is currently organized by Adam Prinkey. Please send an email to <a h
 
 {{% seminarSetup %}}
 
-{{< seminarEntry date="September" time="9:15am" loc="MAC" name="Adam Prinkey" affiliation="Math Sciences Department<br /> Florida Tech" title="title" >}}
-We consider the problem of interface development and local behavior
-of solutions near the interface in the following Cauchy problem for
-the nonlinear double degenerate parabolic PDE with reaction:
+{{< seminarEntry date="September" time="9:15am" loc="MAC" name="Adam Prinkey" affiliation="Math Sciences Department<br /> Florida Tech" title="Evolution of Interfaces for the Nonlinear Double Degenerate Parabolic Equation of Turbulent Filtration with Absorption" >}}
 
+This paper presents a full classification of the short-time behavior of the interfaces and local solutions to the nonlinear double degenerate reaction-diffusion equation of turbulent filtration with strong absorption: 
 \[
-u_{t}=((u^{m})_{x}\begin{vmatrix}(u^{m})_{x}\end{vmatrix}^{p-1})_{x}-bu^{\beta},
-~x\in\mathbb{R},
-~t>0;\quad u(x,0)=C(-x)_{+}^{\alpha}
+Lu \equiv \frac{\partial u}{\partial t}-\frac{\partial}{\partial x}\Bigg(\abs{\frac{\partial u^m}{\partial x}}^{p-1}\frac{\partial u^m}{\partial x}\Bigg)+bu^{\beta}=0,
 \]
-The problem arises in applications involving turbulant filtration
-of material through a porous media. The interface behavior is determined
-by the competition between the diffusion and the reaction terms. The
-full solution for the reaction-diffusion equation ($p=1$) was given
-in 2000 [Abdulla and King, SIAM J. Math. Anal., 32, 2(2000), 235-260]
-and 2002 [Abdulla, Nonlinear Analysis, 50, 4(2002), 541-560].
-Our aim is to apply the methods of these papers to give a full classification
-for double degenerate reaction-diffusion equations with ($p>1, mp>1$).
-First we apply the nonlinear scaling method to identify which term
-dominates in the various regions of the $(\alpha,\beta)$-parameter
-space. We then construct super/subsolutions and apply special comparison
-theorems in irregular domains to prove explicit formulae for the interface
-and local solution, with precise estimations up to constant coefficients.
-The theory of double degenerate parabolic PDEs in irregular domains
-was developed in this work. A WENO scheme is applied and supports
-our estimates. 
-
-
+with $mp > 1, \, (m, p > 0), \, 0 < \beta < 1, \, b > 0, \, x \in \mathbb{R}, \, t \geq 0$. The interface may expand, shrink or remain stationary, as a result of the competition of the diffusion and reaction terms near the interface, expressed in terms of the parameters $m, p,\beta, \text{sign} b$ and asymptotics of the initial function near its support. In all cases we prove explicit formula for the interface and local solution with accuracy up to constant coefficients. The methods of the proof are based on nonlinear scaling laws, and a barrier technique using special comparison theorems in irregular domains with characteristic boundary curves. Numerical analysis using a weighted essentially nonoscillatory (WENO) scheme is pursued and comparison of numerical and analytical results is presented.
 
 {{< /seminarEntry >}}
 
-{{< seminarEntry date="September" time="9:35am" loc="MAC" name="Ali" affiliation="Math Sciences Department<br /> Florida Tech" title="title" >}}
-Ali's Abstract
+{{< seminarEntry date="September" time="9:35am" loc="MAC" name="Ali" affiliation="Math Sciences Department<br /> Florida Tech" title="Gradient Method in Besov Spaces for the Optimal Control of Parabolic Free Boundary Problems" >}}
+
+We pursue numerical analysis of the optimal control problem introduced recently as a variational formulation of the inverse Stefan problem in {\it U.G.Abdulla, Inverse Problems and Imaging, 7, 2(2013), 307-340 \& 10, 4(2016), 869-898}. By employing Frechet differentiability result of the recent paper by {\it Abdulla et.al., Evolution Equations and Control Theory, 6, 3(2017), 319-344}, iterative numerical algorithm based on the projective gradient method in Besov spaces is implemented. We pursue sensitivity analysis with respect to initial guess, and comparison of alternative approaches of simultaneous reconstruction vs. nested optimization of the control vector components. Numerical results are demonstrated for model examples with various levels of complexity. 
 
 {{< /seminarEntry >}}
 
