@@ -24,7 +24,7 @@ The seminar is currently organized by Adam Prinkey. Please send an email to <a h
 
 {{< seminarEntry date="September 04" time="Monday 9:15am" loc="MAC" name="Adam Prinkey" affiliation="Math Sciences Department<br /> Florida Tech" title="Evolution of Interfaces for the Nonlinear Double Degenerate Parabolic Equation of Turbulent Filtration with Absorption" >}}
 
-This paper presents a full classification of the short-time behavior of the interfaces and local solutions to the nonlinear double degenerate reaction-diffusion equation of turbulent filtration with strong absorption: 
+We present a full classification of the short-time behavior of the interfaces and local solutions to the nonlinear double degenerate reaction-diffusion equation of turbulent filtration with strong absorption: 
 \[
 u_t=\Big(|(u^{m})_x|^{p-1}(u^{m})_x\Big)_x-bu^{\beta},
 \]
