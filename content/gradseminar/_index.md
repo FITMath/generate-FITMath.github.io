@@ -26,7 +26,7 @@ The seminar is currently organized by Adam Prinkey. Please send an email to <a h
 
 This paper presents a full classification of the short-time behavior of the interfaces and local solutions to the nonlinear double degenerate reaction-diffusion equation of turbulent filtration with strong absorption: 
 \[
-Lu \equiv \frac{\partial u}{\partial t}-\frac{\partial}{\partial x}\Bigg(|{\frac{\partial u^m}{\partial x}|^{p-1}\frac{\partial u^m}{\partial x}\Bigg)+bu^{\beta}=0,
+\frac{\partial u}{\partial t}=\frac{\partial}{\partial x}\Bigg(|\frac{\partial u^m}{\partial x}|^{p-1}\frac{\partial u^m}{\partial x}\Bigg)-bu^{\beta},
 \]
 with $mp > 1, \, (m, p > 0), \, 0 < \beta < 1, \, b > 0, \, x \in \mathbb{R}, \, t \geq 0$. The interface may expand, shrink or remain stationary, as a result of the competition of the diffusion and reaction terms near the interface, expressed in terms of the parameters $m, p,\beta, \text{sign} b$ and asymptotics of the initial function near its support. In all cases we prove explicit formula for the interface and local solution with accuracy up to constant coefficients. The methods of the proof are based on nonlinear scaling laws, and a barrier technique using special comparison theorems in irregular domains with characteristic boundary curves. Numerical analysis using a weighted essentially nonoscillatory (WENO) scheme is pursued and comparison of numerical and analytical results is presented.
 
@@ -34,7 +34,7 @@ with $mp > 1, \, (m, p > 0), \, 0 < \beta < 1, \, b > 0, \, x \in \mathbb{R}, \,
 
 {{< seminarEntry date="September" time="9:35am" loc="MAC" name="Ali" affiliation="Math Sciences Department<br /> Florida Tech" title="Gradient Method in Besov Spaces for the Optimal Control of Parabolic Free Boundary Problems" >}}
 
-We pursue numerical analysis of the optimal control problem introduced recently as a variational formulation of the inverse Stefan problem in [U.G.Abdulla, Inverse Problems and Imaging, 7, 2(2013), 307-340 \& 10, 4(2016), 869-898]. By employing Frechet differentiability result of the recent paper by [Abdulla et.al., Evolution Equations and Control Theory, 6, 3(2017), 319-344], iterative numerical algorithm based on the projective gradient method in Besov spaces is implemented. We pursue sensitivity analysis with respect to initial guess, and comparison of alternative approaches of simultaneous reconstruction vs. nested optimization of the control vector components. Numerical results are demonstrated for model examples with various levels of complexity. 
+We pursue numerical analysis of the optimal control problem introduced recently as a variational formulation of the inverse Stefan problem in [U.G.Abdulla, Inverse Problems and Imaging, 7, 2(2013), 307-340 and 10, 4(2016), 869-898]. By employing Frechet differentiability result of the recent paper by [Abdulla et.al., Evolution Equations and Control Theory, 6, 3(2017), 319-344], iterative numerical algorithm based on the projective gradient method in Besov spaces is implemented. We pursue sensitivity analysis with respect to initial guess, and comparison of alternative approaches of simultaneous reconstruction vs. nested optimization of the control vector components. Numerical results are demonstrated for model examples with various levels of complexity. 
 
 {{< /seminarEntry >}}
 
