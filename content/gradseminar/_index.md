@@ -26,7 +26,7 @@ The seminar is currently organized by Adam Prinkey. Please send an email to <a h
 
 We present a full classification of the short-time behavior of the interfaces and local solutions to the nonlinear double degenerate reaction-diffusion equation of turbulent filtration with strong absorption: 
 \[
-u_t=\Big(|(u^{m})_x|^{p-1}(u^{m})_x\Big)_x-bu^{\beta},
+u_t=\big(|(u^{m})_x|^{p-1}(u^{m})_x\big)_x-bu^{\beta},
 \]
 with $mp > 1, \, (m, p > 0), \, 0 < \beta < 1, \, b > 0, \, x \in \mathbb{R}, \text{ and } t \geq 0$. The interface may expand, shrink or remain stationary, as a result of the competition of the diffusion and reaction terms near the interface, expressed in terms of the parameters $m, p,\beta, \text{sign} b$ and asymptotics of the initial function near its support. In all cases we prove explicit formula for the interface and local solution with accuracy up to constant coefficients. The methods of the proof are based on nonlinear scaling laws, and a barrier technique using special comparison theorems in irregular domains with characteristic boundary curves. Numerical analysis using a weighted essentially nonoscillatory (WENO) scheme is pursued and comparison of numerical and analytical results is presented.
 
