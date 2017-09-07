@@ -22,7 +22,7 @@ The seminar is currently organized by Adam Prinkey. Please send an email to <a h
 
 {{% seminarSetup %}}
 
-{{< seminarEntry date="September 11" time="Monday 9:00am" loc="MAC" name="Adam Prinkey" affiliation="Math Sciences Department<br /> Florida Tech" title="Evolution of Interfaces for the Nonlinear Double Degenerate Parabolic Equation of Turbulent Filtration with Absorption" >}}
+{{< seminarEntry date="September 18" time="Monday 9:00am" loc="MAC" name="Adam Prinkey" affiliation="Math Sciences Department<br /> Florida Tech" title="Evolution of Interfaces for the Nonlinear Double Degenerate Parabolic Equation of Turbulent Filtration with Absorption" >}}
 
 We present a full classification of the short-time behavior of the interfaces and local solutions to the nonlinear double degenerate reaction-diffusion equation of turbulent filtration with strong absorption: 
 \[
@@ -32,7 +32,7 @@ with $mp > 1, \, (m, p > 0), \, 0 < \beta < 1, \, b > 0, \, x \in \mathbb{R}, \t
 
 {{< /seminarEntry >}}
 
-{{< seminarEntry date="September 11" time="Monday 9:20am" loc="MAC" name="Ali Haqverdiyev" affiliation="Math Sciences Department<br /> Florida Tech" title="Gradient Method in Besov Spaces for the Optimal Control of Parabolic Free Boundary Problems" >}}
+{{< seminarEntry date="September 18" time="Monday 9:20am" loc="MAC" name="Ali Haqverdiyev" affiliation="Math Sciences Department<br /> Florida Tech" title="Gradient Method in Besov Spaces for the Optimal Control of Parabolic Free Boundary Problems" >}}
 
 We pursue numerical analysis of the optimal control problem introduced recently as a variational formulation of the inverse Stefan problem in [U.G.Abdulla, Inverse Problems and Imaging, 7, 2(2013), 307-340 and 10, 4(2016), 869-898]. By employing Frechet differentiability result of the recent paper by [Abdulla et.al., Evolution Equations and Control Theory, 6, 3(2017), 319-344], iterative numerical algorithm based on the projective gradient method in Besov spaces is implemented. We pursue sensitivity analysis with respect to initial guess, and comparison of alternative approaches of simultaneous reconstruction vs. nested optimization of the control vector components. Numerical results are demonstrated for model examples with various levels of complexity. 
 
