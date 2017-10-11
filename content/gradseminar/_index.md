@@ -24,7 +24,7 @@ Please send an email to <a href="mailto:aprinkey2009@my.fit.edu?subject=Departme
 
 {{% seminarSetup %}}
 
-{{< seminarEntry date="October 16" time="Monday 9:00am" loc="MAC" name="Ali Al-Obaidi<br />Major Advisor: Dr. Dshalalow, Jewgeni" affiliation="Math Sciences Department<br /> Florida Tech" title="Modulated Random Measures On Hausdorff Topological Spaces" >}}
+{{< seminarEntry date="October 16" time="Monday 9:00am" loc="MAC" name="Ali Al-Obaidi. Major Advisor: Dr. Dshalalow, Jewgeni" affiliation="Math Sciences Department<br /> Florida Tech" title="Modulated Random Measures On Hausdorff Topological Spaces" >}}
 
 In this seminar, we will introduce random measures on $\sigma$-compact Hausdorff spaces and define their stochastic integrals of functions of one and two variables.
 We further form a rigorous construction of a random measure perturbed by a stochastic process and target its stationary intensity often occurring in control theory.
