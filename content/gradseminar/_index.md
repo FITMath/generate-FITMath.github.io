@@ -13,14 +13,25 @@ description = "Florida Tech Mathematical Sciences Graduate Seminar"
 </div>
 <div style="padding-top: 5px;">
 <blockquote style="text-align: justify">
-The mathematical sciences department graduate seminar is a venue for expository talks and presentations on research by undergraduate students, graduate students, and faculty members. Anyone interested is welcome to attend and participate.
+The mathematical sciences department graduate seminar is a venue for expository talks and presentations on research by undergraduate students, graduate students, and faculty members.
+Anyone interested is welcome to attend and participate.
 <br /><br />
-The seminar is currently organized by Adam Prinkey. Please send an email to <a href="mailto:aprinkey2009@my.fit.edu?subject=Department%20Graduate%20Seminar">aprinkey2009<span style="display: none;">ob</span>@my.fit.edu</a>
+The seminar is currently organized by Adam Prinkey.
+Please send an email to <a href="mailto:aprinkey2009@my.fit.edu?subject=Department%20Graduate%20Seminar">aprinkey2009<span style="display: none;">ob</span>@my.fit.edu</a>
  with your suggestions for future talks, as well as any questions or comments.
 </blockquote>
  </div>
 
 {{% seminarSetup %}}
+
+{{< seminarEntry date="October 16" time="Monday 9:00am" loc="MAC" name="Ali Al-Obaidi<br />Major Advisor: Dr. Dshalalow, Jewgeni" affiliation="Math Sciences Department<br /> Florida Tech" title="Modulated Random Measures On Hausdorff Topological Spaces" >}}
+
+In this seminar, we will introduce random measures on $\sigma$-compact Hausdorff spaces and define their stochastic integrals of functions of one and two variables.
+We further form a rigorous construction of a random measure perturbed by a stochastic process and target its stationary intensity often occurring in control theory.
+To obtain that intensity we modify and refine the classic Campbell's theorem for random measures.
+Examples of modulated Poisson measures are discussed.
+
+{{< /seminarEntry >}}
 
 {{< seminarEntry date="September 18" time="Monday 9:00am" loc="MAC" name="Adam Prinkey" affiliation="Math Sciences Department<br /> Florida Tech" title="Evolution of Interfaces for the Nonlinear Double Degenerate Parabolic Equation of Turbulent Filtration with Absorption" >}}
 
