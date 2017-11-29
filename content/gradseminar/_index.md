@@ -22,7 +22,7 @@ Please send an email to <a href="mailto:aprinkey2009@my.fit.edu?subject=Departme
 </blockquote>
  </div>
 
-{{% seminarSetup %}}
+{{% seminarSetup %}} 
 
 {{< /seminarEntry >}}
 
