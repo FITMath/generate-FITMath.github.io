@@ -24,13 +24,6 @@ Please send an email to <a href="mailto:aprinkey2009@my.fit.edu?subject=Departme
 
 {{% seminarSetup %}}
 
-{{< seminarEntry date="October 16" time="Monday 9:00am" loc="MAC" name="Ali Al-Obaidi. Major Advisor: Dr. Dshalalow, Jewgeni" affiliation="Math Sciences Department<br /> Florida Tech" title="Modulated Random Measures On Hausdorff Topological Spaces" >}}
-
-In this seminar, we will introduce random measures on $\sigma$-compact Hausdorff spaces and define their stochastic integrals of functions of one and two variables.
-We further form a rigorous construction of a random measure perturbed by a stochastic process and target its stationary intensity often occurring in control theory.
-To obtain that intensity we modify and refine the classic Campbell's theorem for random measures.
-Examples of modulated Poisson measures are discussed.
-
 {{< /seminarEntry >}}
 
 {{< seminarEntry date="September 18" time="Monday 9:00am" loc="MAC" name="Adam Prinkey" affiliation="Math Sciences Department<br /> Florida Tech" title="Evolution of Interfaces for the Nonlinear Double Degenerate Parabolic Equation of Turbulent Filtration with Absorption" >}}
@@ -49,7 +42,7 @@ We pursue numerical analysis of the optimal control problem introduced recently 
 
 {{< /seminarEntry >}}
 
-{{< seminarEntry date="October 16" time="Monday 9:00am" loc="MAC" name="Ali Al-Obaidi. Major Advisor: Dr. Dshalalow, Jewgeni" affiliation="Math Sciences Department<br /> Florida Tech" title="Modulated Random Measures On Hausdorff Topological Spaces" >}}
+{{< seminarEntry date="October 16" time="Monday 9:00am" loc="MAC" name="Ali Al-Obaidi" affiliation="Math Sciences Department<br /> Florida Tech" title="Modulated Random Measures On Hausdorff Topological Spaces" >}}
 
 In this seminar, we will introduce random measures on $\sigma$-compact Hausdorff spaces and define their stochastic integrals of functions of one and two variables.
 We further form a rigorous construction of a random measure perturbed by a stochastic process and target its stationary intensity often occurring in control theory.
@@ -58,7 +51,7 @@ Examples of modulated Poisson measures are discussed.
 
 {{< /seminarEntry >}}
 
-{{< seminarEntry date="September 18" time="Monday 9:00am" loc="MAC" name="Saleheh Seif" affiliation="Math Sciences Department<br /> Florida Tech" title="Breast Cancer Detection via Electrical Impedance Tomography and Optimal Control Theory" >}}
+{{< seminarEntry date="December 04" time="Monday 9:00am" loc="MAC" name="Saleheh Seif" affiliation="Math Sciences Department<br /> Florida Tech" title="Breast Cancer Detection via Electrical Impedance Tomography and Optimal Control Theory" >}}
 
 We analyze the inverse problem of breast cancer detection through Electrical Impedance Tomography. EIT is a non-invasive medical imaging method to recover electrical conductivity of the body from electrical measurements on its surface and potentials which are applied to the electrodes such that $\sum U_i=0$. Mathematical formulation of the problem is referred to as Calderon's inverse problem on the identification of the conductivity coefficient of the second order elliptic PDE from additional boundary measurements. We pursue variational formulation and consider the optimal control problem on the minimization of the $L_2$-norm declination of the flux on certain subset of the boundary for thesecond order elliptic PDE. 
 
