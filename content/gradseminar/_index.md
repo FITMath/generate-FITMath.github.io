@@ -65,7 +65,7 @@ the nonlinear double degenerate parabolic PDE with reaction and fast diffusion:
 u_{t}= \Big(|(u^{m})_x|^{p-1}(u^{m})_x\Big)_x+bu^{\beta},
 \, x\in\mathbb{R}, \, t>0; u(x,0)\sim \, C(-x)_{+}^{\alpha}, \text{ as } x\uparrow 0, \, (u(x,0)=C(-x)_{+}^{\alpha}, \, x\in\mathbb{R}),  \]
 
-with $0< mp <1, m, p, C$, and $\alpha > 0$.
+with $0< mp <1, \, m, \, p, \, C$, and $\alpha > 0$.
 The problem arises in applications involving turbulant filtration
 of material through a porous media. The interface behavior is determined
 by the competition between the diffusion and the reaction terms. The
