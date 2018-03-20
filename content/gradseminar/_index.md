@@ -73,7 +73,7 @@ full solution for the problem for the reaction-diffusion equation ($p=1$) was gi
 in 2002 in:
 
 <p>
-U. G. Abdulla, Evolution of interfaces and explicit asymptotics at infinity for the fast diffusion equation with absorption, <i>Nonlinear Anal. Theory Methods Appl.</i>, <b>(4) 2002, 541-560<\b>.
+U. G. Abdulla, Evolution of interfaces and explicit asymptotics at infinity for the fast diffusion equation with absorption, <i>Nonlinear Anal. Theory Methods Appl.</i>, <b>(4) 2002, 541-560</b>.
 </p><p>
  
 Our aim is to apply the methods of that paper to give a full classification of the interface and the local solution near the interface
