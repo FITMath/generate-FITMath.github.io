@@ -71,9 +71,9 @@ of material through a porous media. The interface behavior is determined
 by the competition between the diffusion and the reaction terms. The
 full solution for the problem for the reaction-diffusion equation ($p=1$) was given
 in 2002 in:
-\begin{center}
+\[ 
 U. G. Abdulla, Evolution of interfaces and explicit asymptotics at infinity for the fast diffusion equation with absorption, \emph{Nonlinear Anal. Theory Methods Appl.}, 4, 2002, 541-560.
-\end{center}
+\]
 Our aim is to apply the methods of that paper to give a full classification of the interface and the local solution near the interface
 for double degenerate reaction-diffusion equations with fast diffusion ($0<mp<1$). Unlike in case of slow diffusion ($mp>1$), the interface may not exist. If the interface does not exist, we seek to classify the asymptotic behavior of $u(x,t)$ at infinity.
 To this end, we first apply a nonlinear scaling technique to identify which term
