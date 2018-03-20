@@ -55,12 +55,15 @@ We analyze the inverse problem of breast cancer detection through Electrical Imp
 
 {{< /seminarEntry >}}
 
-{{< seminarEntry date="March 19" time="Monday 9:00am" loc="MAC" name="Adam Prinkey" affiliation="Math Sciences Department
-Florida Tech" title="Evolution of Interfaces and Explicit Asymptotics at Infinity for the Fast Nonlinear Double Degenerate Parabolic Equation of Turbulent Filtration with Absorption" >}}
+{{< seminarEntry date="March 19" time="Monday 9:00am" loc="MAC" name="Adam Prinkey" affiliation="Math Sciences Department<br /> Florida Tech" title="Evolution of Interfaces and Explicit Asymptotics at Infinity for the Fast Nonlinear Double Degenerate Parabolic Equation of Turbulent Filtration with Absorption" >}}
 
 We consider the problem of interface development and local behavior
 of solutions near the interface in the following Cauchy problem for
 the nonlinear double degenerate parabolic PDE with reaction and fast diffusion:
+
+\[
+u_{t}= \Big(|(u^{m})_x|^{p-1}(u^{m})_x\Big)_x+bu^{\beta},
+\, x\in\mathbb{R}, \, t>0; u(x,0)\sim \, C(-x)_{+}^{\alpha}, \text{ as } x\uparrow 0, \, (u(x,0)=C(-x)_{+}^{\alpha}, \, x\in\mathbb{R}),  \]
 
 where $m, p, C$, and $\alpha > 0$.
 The problem arises in applications involving turbulant filtration
