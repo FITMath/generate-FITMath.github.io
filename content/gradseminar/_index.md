@@ -65,7 +65,7 @@ the nonlinear double degenerate parabolic PDE with reaction and fast diffusion:
 u_{t}= \Big(|(u^{m})_x|^{p-1}(u^{m})_x\Big)_x+bu^{\beta},
 \, x\in\mathbb{R}, \, t>0; u(x,0)\sim \, C(-x)_{+}^{\alpha}, \text{ as } x\uparrow 0, \, (u(x,0)=C(-x)_{+}^{\alpha}, \, x\in\mathbb{R}),  \]
 
-with $0<mp<1, m, p, C$, and $\alpha > 0$.
+with $0< mp <1, m, p, C$, and $\alpha > 0$.
 The problem arises in applications involving turbulant filtration
 of material through a porous media. The interface behavior is determined
 by the competition between the diffusion and the reaction terms. The
@@ -74,7 +74,7 @@ in 2002 in:
 [U. G. Abdulla, Evolution of interfaces and explicit asymptotics at infinity for the fast diffusion equation with absorption, Nonlinear Anal. Theory Methods Appl., 4, 2002, 541-560
 ].
 Our aim is to apply the methods of that paper to give a full classification of the interface and the local solution near the interface
-for double degenerate reaction-diffusion equations with fast diffusion. Unlike in case of slow diffusion ($mp>1$), the interface may not exist. If the interface does not exist, we seek to classify the asymptotic behavior of $u(x,t)$ at infinity.
+for double degenerate reaction-diffusion equations with fast diffusion. Unlike in case of slow diffusion ($mp > 1$), the interface may not exist. If the interface does not exist, we seek to classify the asymptotic behavior of $u(x,t)$ at infinity.
 To this end, we first apply a nonlinear scaling technique to identify which term
 dominates in the various regions of the $(\alpha,\beta)$-parameter
 space. We then construct super/subsolutions and apply special comparison
