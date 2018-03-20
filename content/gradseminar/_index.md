@@ -53,5 +53,37 @@ Examples of modulated Poisson measures are discussed.
 
 We analyze the inverse problem of breast cancer detection through Electrical Impedance Tomography. EIT is a non-invasive medical imaging method to recover electrical conductivity of the body from electrical measurements on its surface and potentials which are applied to the electrodes such that $\sum U_i=0$. Mathematical formulation of the problem is referred to as Calderon's inverse problem on the identification of the conductivity coefficient of the second order elliptic PDE from additional boundary measurements. We pursue variational formulation and consider the optimal control problem on the minimization of the $L_2$-norm declination of the flux on certain subset of the boundary for thesecond order elliptic PDE. 
 
+{{< /seminarEntry >}}
+
+{{< seminarEntry date="March 19" time="Monday 9:00am" loc="MAC" name="Adam Prinkey" affiliation="Math Sciences Department
+Florida Tech" title="Evolution of Interfaces and Explicit Asymptotics at Infinity for the Fast Nonlinear Double Degenerate Parabolic Equation of Turbulent Filtration with Absorption" >}}
+
+We consider the problem of interface development and local behavior
+of solutions near the interface in the following Cauchy problem for
+the nonlinear double degenerate parabolic PDE with reaction and fast diffusion:
+$$
+\begin{cases}
+u_{t}= \Big(|(u^{m})_x|^{p-1}(u^{m})_x\Big)_x+bu^{\beta},
+\, x\in\mathbb{R}, \, t>0,\\
+u(x,0)\sim \, C(-x)_{+}^{\alpha}, \text{ as } x\uparrow 0, \, (u(x,0)=C(-x)_{+}^{\alpha}, \, x\in\mathbb{R}),
+\end{cases}
+$$
+where $m, p, C$, and $\alpha > 0$.
+The problem arises in applications involving turbulant filtration
+of material through a porous media. The interface behavior is determined
+by the competition between the diffusion and the reaction terms. The
+full solution for the problem for the reaction-diffusion equation ($p=1$) was given
+in 2002 in:
+\begin{center}
+U. G. Abdulla, Evolution of interfaces and explicit asymptotics at infinity for the fast diffusion equation with absorption, \emph{Nonlinear Anal. Theory Methods Appl.}, 4, 2002, 541-560.
+\end{center}
+Our aim is to apply the methods of that paper to give a full classification of the interface and the local solution near the interface
+for double degenerate reaction-diffusion equations with fast diffusion ($0<mp<1$). Unlike in case of slow diffusion ($mp>1$), the interface may not exist. If the interface does not exist, we seek to classify the asymptotic behavior of $u(x,t)$ at infinity.
+To this end, we first apply a nonlinear scaling technique to identify which term
+dominates in the various regions of the $(\alpha,\beta)$-parameter
+space. We then construct super/subsolutions and apply special comparison
+theorems in irregular domains to prove explicit formulae for the interface (where it exists)
+and local solution near the interface, with precise estimations.
+
 
 {{% seminarBreakdown %}}
