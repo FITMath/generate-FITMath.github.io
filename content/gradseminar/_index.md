@@ -61,13 +61,7 @@ Florida Tech" title="Evolution of Interfaces and Explicit Asymptotics at Infinit
 We consider the problem of interface development and local behavior
 of solutions near the interface in the following Cauchy problem for
 the nonlinear double degenerate parabolic PDE with reaction and fast diffusion:
-$$
-\begin{cases}
-u_{t}= \Big(|(u^{m})_x|^{p-1}(u^{m})_x\Big)_x+bu^{\beta},
-\, x\in\mathbb{R}, \, t>0,\\
-u(x,0)\sim \, C(-x)_{+}^{\alpha}, \text{ as } x\uparrow 0, \, (u(x,0)=C(-x)_{+}^{\alpha}, \, x\in\mathbb{R}),
-\end{cases}
-$$
+
 where $m, p, C$, and $\alpha > 0$.
 The problem arises in applications involving turbulant filtration
 of material through a porous media. The interface behavior is determined
