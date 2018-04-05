@@ -85,4 +85,25 @@ theorems in irregular domains to prove explicit formulae for the interface (wher
 and local solution near the interface, with precise estimations.
 
 
+{{< /seminarEntry >}}
+
+{{< seminarEntry date="March 26" time="Monday 9:00am" loc="MAC" name="Saleheh Seif" affiliation="Math Sciences Department<br /> Florida Tech" title="Breast Cancer Detection through Electrical Impedance Tomography and Optimal Control Theory: Theoretical and Computational Analysis" >}}
+
+We analyze the inverse problem of breast cancer detection through Electrical Impedance Tomography (EIT). Inverse EIT problem consists in recovering electrical conductivity field along with electric potential within the body and the boundary voltages for given input currents and contact impedances of the electrodes. We pursue variational formulation and consider the optimal control problem, where electrical conductivity matrix and boundary voltages are control parameters and the minimized cost functional is the quadratic declination of the boundary currents of the corresponding solution of the mixed Neumann-Robin problem for the second order elliptic PDE from given input currents. We prove existence of optimal control and Frechet dierentiability in the Banach space of bounded measurable matrix functions, and derive the optimality condition. The discretization of the optimal control problem through finite differences is implemented and the convergence of the sequence of discrete optimal control problems to continuous optimal control problem is analyzed.
+We pursue numerical analysis in a simplied two-dimensional case by implementing projective gradient method in Banach spaces, re-parametrization and space reduction based on principal component analysis, Tikhonov regularization and sensitivity analysis with respect to relative size and locations of cancerous tumors.
+
+
+{{< /seminarEntry >}}
+
+{{< seminarEntry date="April 2" time="Monday 9:00am" loc="MAC" name="Curtis Earl" affiliation="Math Sciences Department<br /> Florida Tech" title="On the Optimal Control of the Stefan Type Parabolic Free Boundary Problems with State Constraints" >}}
+
+We consider the inverse Stefan type free boundary problem for the general second order parabolic PDE under state constraints in the form of the upper bound for the temperature. This problem arises in bioengineering problem about the laser ablation of the skin. We implement optimal control framework following a variational formulation developed in 
+
+<p>
+U. G. Abdulla, <i>Inverse Problems and Imaging</i>, <b>(7) 2013, 307-340 \& (10) 2016, 869-898</b>,
+</p><p>
+
+with penalty functional added due to state constraint. We pursue space-time discretization and prove the convergence of the sequence of discrete optimal control problems to the continuous optimal control both with respect to functional and control. We prove the Frechet differentiability in Besov spaces and derive the formula for the Frechet differential under minimal assumptions on the data.
+
+
 {{% seminarBreakdown %}}
