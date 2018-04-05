@@ -100,7 +100,7 @@ We pursue numerical analysis in a simplied two-dimensional case by implementing 
 We consider the inverse Stefan type free boundary problem for the general second order parabolic PDE under state constraints in the form of the upper bound for the temperature. This problem arises in bioengineering problem about the laser ablation of the skin. We implement optimal control framework following a variational formulation developed in 
 
 <p>
-U. G. Abdulla, <i>Inverse Problems and Imaging</i>, <b>(7) 2013, 307-340 \& (10) 2016, 869-898</b>,
+U. G. Abdulla, <i>Inverse Problems and Imaging</i>, <b>(7) 2013, 307-340 & (10) 2016, 869-898</b>,
 </p><p>
 
 with penalty functional added due to state constraint. We pursue space-time discretization and prove the convergence of the sequence of discrete optimal control problems to the continuous optimal control both with respect to functional and control. We prove the Frechet differentiability in Besov spaces and derive the formula for the Frechet differential under minimal assumptions on the data.
