@@ -112,11 +112,9 @@ with penalty functional added due to state constraint. We pursue space-time disc
 We prove the short-time asymptotic formula for the interfaces and local solutions near the interfaces for the nonlinear double degenerate reaction-diffusion equation of turbulent filtration with fast diffusion and strong absorption
 
 \[
-u_{t}= \Big(|(u^{m})_x|^{p-1}(u^{m})_x\Big)_x+bu^{\beta};
-\, u = u(x,t), \, 0<mp<1, \, \beta >0, \, b \in \mathbb{R}.  
+u_t=\big(|(u^{m})_x|^{p-1}(u^{m})_x\big)_x-bu^{\beta},
 \]
-
-Full classification is pursued in terms of the nonlinearity parameters  $m, p,\beta$ and asymptotics of the initial function near its support. In the case of an infinite speed of propagation of the interface, the asymptotic behavior of the local solution is classified at infinity. Similar classification for the slow diffusion case ($mp>1$) was presented in a recent paper 
+with $0<mp<1, \, (m, p > 0), \, 0 < \beta < 1, \, b \in \mathbb{R}, \, x \in \mathbb{R}, \text{ and } t \geq 0$. Full classification is pursued in terms of the nonlinearity parameters  $m, p,\beta$ and asymptotics of the initial function near its support. In the case of an infinite speed of propagation of the interface, the asymptotic behavior of the local solution is classified at infinity. Similar classification for the slow diffusion case ($mp>1$) was presented in a recent paper 
 <p>
 Abdulla et al., <i>Mathematics and Computers in Simulation</i>, <b>153 (2018), 59-82</b>.
 </p><p>
