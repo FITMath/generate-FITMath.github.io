@@ -35,7 +35,7 @@ with $0 < mp < 1, \, (m, p > 0), \, 0 < \beta < 1, \, b \in \mathbb{R}, \, x \in
 
 Full classification is pursued in terms of the nonlinearity parameters  $m, p,\beta$ and asymptotics of the initial function near its support. In the case of an infinite speed of propagation of the interface, the asymptotic behavior of the local solution is classified at infinity. Similar classification for the slow diffusion case ($mp>1$) was presented in a recent paper 
 <p>
-Abdulla et al., <i>Mathematics and Computers in Simulation</i>, <b>153 (2018), 59-82</b>.
+ Abdulla et al., <i>Mathematics and Computers in Simulation</i>, <b>153</b> (2018), 59-82.
 </p><p>
  
  {{< /seminarEntry >}}
@@ -45,7 +45,7 @@ Abdulla et al., <i>Mathematics and Computers in Simulation</i>, <b>153 (2018), 5
 We consider the inverse Stefan type multiphase free boundary problem, in which information on the boundary heat flux is missing, and must be found along with the temperature. We generalize the method developed in 
 
 <p>
-Abdulla & Poggi, <i>Applied Mathematics and Optimization</i>, <b>2018</b>,
+Abdulla & Poggi, <i>Applied Mathematics and Optimization</i>, 2018,
 </p><p>
 
 to pursue optimal control framework where control vector consists of the heat flux, and the cost functional is the $L_2$-norm declination of the trace of temperature at the final moment of time to the measured data. We pursue discretization of the problem, and prove convergence of the discrete problem to the original problem with respect to both control and functional.
@@ -57,7 +57,7 @@ to pursue optimal control framework where control vector consists of the heat fl
 In this presentation I will talk about computational analysis of the inverse Stefan type free boundary problem, where information on the boundary heat flux is missing and must be found along with the temperature and the free boundary. We pursue optimal control framework introduced in 
 
 <p>
- U.G. Abdulla, <i>Inverse Problems and Imaging</i>, <b>7, 2(2013), 307-340; 10, 4(2016), 869-898</b>,
+ U.G. Abdulla, <i>Inverse Problems and Imaging</i>, 7, <b>2</b> (2013), 307-340; 10, <b>4</b> (2016), 869-898,
 </p><p>
 
 where boundary heat flux and free boundary are components of the control vector, and optimality criteria consist of the minimization of the quadratic declinations from the available measurements of the temperature distribution at the final moment, phase transition temperature on the free boundary, and the final position of the free boundary. We develop gradient descent algorithm based on Frechet differentiability in Hilbert-Besov spaces complemented with preconditioning or increase of regularity of the Frechet gradient through implementation of the Riesz representation theorem. Five model examples with various levels of complexity are considered. Extensive comparative analysis through implementation of preconditioning and Tikhonov regularization, calibration of preconditioning and regularization parameters, effect of noisy data, comparison of simultaneous identification of control parameters vs. nested optimization is pursued.
