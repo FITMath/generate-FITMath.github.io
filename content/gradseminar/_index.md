@@ -68,7 +68,10 @@ where boundary heat flux and free boundary are components of the control vector,
 
 We present a full classification of the short-time behaviour of the interfaces and local solutions to the nonlinear parabolic $p$-Laplacian type reaction-diffusion equation of non-Newtonian elastic filtration
 
-
+\[
+u_t=\big(|u_x|^{p-2}u_x\big)_x-bu^{\beta},
+\]
+with $0 < p < 2, \, \, 0 < \beta < 1, \, b \in \mathbb{R}, \, x \in \mathbb{R}, \text{ and } t \geq 0$.
 
 If interface is finite, it may expand, shrink, or remain stationary as a result of the competition of the diffusion and reaction terms near the interface, expressed in terms of the parameters $p,\beta, \text{sign}b$, and asymptotics of the initial function near its support. In some range of parameters strong domination of the diffusion causes infinite speed of propagation and interfaces are absent. In all cases with finite interfaces we prove the explicit formula for the interface and the local solution with accuracy up to constant coefficients. We prove explicit asymptotics of the local solution at infinity in all cases with infinite speed of propagation. The methods of the proof are based on nonlinear scaling laws, and a barrier technique using special comparison theorems in irregular domains with characteristic boundary curves. A full description of small-time behaviour of the interfaces and local solutions
 near the interfaces for slow diffusion case when $p>2$ is presented in a recent paper 
