@@ -93,4 +93,18 @@ become unsustainable. Of interest are the status of all players upon  and also a
 in various analytic and computational examples. We illustrate the applicability of the game on a number of 
 practical models, including stock option trading and queueing systems with vacations and (N,T)-policy.
 
+{{< /seminarEntry >}}
+
+{{< seminarEntry date="October 29, 2018" time="Monday 9:00am" loc="MAC" name="Wejdan Deebani" affiliation="Math Sciences Department<br /> Florida Tech" title="Bootstrap weights for combining correlation coefficients" >}}
+
+Analyzing large datasets is essential in every branch of science including social, medical, and political sciences. An important task in statistical analysis of data is to discover relationships between variables. Several correlation factors have been introduced to quantify the association between variables in a dataset such as Pearson's correlation coefficient, Spearman's correlation, and Distance correlation. Pearson’s correlation is a well-known measure of association that can detect the strength and direction of a linear relationship between two variables. Spearman’s and Distance correlations have been developed to address the shortcomings of Pearson’s correlation coefficient. Spearman’s can identify a monotonic relationship, while Distance correlation can describe the degree of independence by computing a value between zero and one where zero indicates independence of the two variables.
+
+Correlation coefficients do not perform consistently when they are calculated for different types of relationships. Often the underlying relationship between variables are unknown and it is challenging to decide which correlation coefficient is appropriate to discover these hidden relationship. Our research is focused on combining these factors to obtain a single representative coefficient value. We combine these coefficients by assigning different weights and calculate a single weighted average. Here, we introduce a bootstrap weight function based on the standard error of the coefficients. It means, a coefficient with smaller error will receive a higher weight. The weight function is developed as ratio of the correlation factor to its bootstrap standard error. This method is tested by designing several simulations to study these correlation factors for different types of relationships including linear, polynomial, and exponential. First, we simulate the data for the aforementioned relationships with added Gaussian noise. We then calculate the correlation coefficients and combine them for corrupted relationships with low and high noise. Simulations demonstrate that these coefficients do not perform uniformly for different relationships and each can better identify a specific relationship. Hence, a combined correlation measure can better explain the relationship between variables when the underlying relationship is unknown.
+
+{{< /seminarEntry >}}
+
+{{< seminarEntry date="November 19, 2018" time="Monday 9:00am" loc="MAC" name="Roby Poteau" affiliation="Math Sciences Department<br /> Florida Tech" title="TBA" >}}
+
+TBA.
+
 {{% seminarBreakdown %}}
