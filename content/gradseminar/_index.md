@@ -108,7 +108,7 @@ Correlation coefficients do not perform consistently when they are calculated fo
 We consider the inverse problem for the identification of the finite dimensional set of parameters for systems of nonlinear ordinary differential equations (ODEs) arising in systems biology. A numerical method which combines Bellman’s quasilinearization with sensitivity analysis and Tikhonov’s regularization is implemented. We apply the method to various biological models such as the classical Lotka–Volterra system, bistable switch model in genetic regulatory networks, gene regulation and repressilator models from synthetic biology. The numerical results and application to real data demonstrate the quadratic convergence. The results of the talk are published in a recent paper 
 
 <p>
-U.G. Abdulla, R. Poteau, <i>Mathematical Biosciences</i>, 305 (2018), 133-145.
+Abdulla & Poteau, <i>Mathematical Biosciences</i>, <b>305</b> (2018), 133-145.
 </p><p>
  
 {{< /seminarEntry >}}
