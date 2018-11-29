@@ -103,8 +103,22 @@ Correlation coefficients do not perform consistently when they are calculated fo
 
 {{< /seminarEntry >}}
 
-{{< seminarEntry date="November 19, 2018" time="Monday 9:00am" loc="MAC" name="Roby Poteau" affiliation="Math Sciences Department<br /> Florida Tech" title="TBA" >}}
+{{< seminarEntry date="November 19, 2018" time="Monday 9:00am" loc="MAC" name="Roby Poteau" affiliation="Math Sciences Department<br /> Florida Tech" title="Identification of parameters in systems biology" >}}
 
-TBA.
+We consider the inverse problem for the identification of the finite dimensional set of parameters for systems of nonlinear ordinary differential equations (ODEs) arising in systems biology. A numerical method which combines Bellman’s quasilinearization with sensitivity analysis and Tikhonov’s regularization is implemented. We apply the method to various biological models such as the classical Lotka–Volterra system, bistable switch model in genetic regulatory networks, gene regulation and repressilator models from synthetic biology. The numerical results and application to real data demonstrate the quadratic convergence. The results of the talk are published in a recent paper 
+
+<p>
+U.G. Abdulla, R. Poteau, <i>Mathematical Biosciences</i>, 305 (2018), 133-145.
+</p><p>
+ 
+{{< /seminarEntry >}}
+
+{{< seminarEntry date="December 3, 2018" time="Monday 9:00am" loc="MAC" name="Meshal Shutaywi" affiliation="Math Sciences Department<br /> Florida Tech" title="Evaluating silhouette index for linearly and non-linearly separable groups"" >}}
+
+A common important task in data mining is grouping the objects based on their similarities. Clustering analysis is a well-known technique for grouping the objects using their features. Several clustering methods have been developed. Among them k-means is a linear clustering method that is broadly used. It divides the data elements into linearly separable groups where the objective function is to minimize the Euclidean distances between the elements and their associated cluster centers.
+
+Several methods have been developed to evaluate the clustering performance including normalized mutual information (NMI) and silhouette index. NMI needs at least partial true labels of the data elements while silhouette index does not need the true labels and can be used where true labels are unknown. The focus here is to study the clustering performance using silhouette index. We evaluate the clustering performance of silhouette index by implementing several simulations as follow.
+
+We first simulated two distinct groups that are linearly separable. Then, we added Gaussian noise to spatial coordinates of each data point such that the original distinct groups slightly overlap. We increased the overlapped area of two groups gradually by increasing the standard deviation of noise. In this way, we generate multiple datasets with different overlapping extents. K-means clustering is applied to divide the simulated datasets into two clusters. Silhouette index is calculated for clustering results as well as true positive rate to assess the results. Average silhouette index and average true rate are computed for each noise level using several runs of Monte Carlo simulations. We then visualize average silhouette index and its confident interval with regard to noise level. We also plot the average true positive rate and its confidence interval vs. standard deviation of noise.
 
 {{% seminarBreakdown %}}
