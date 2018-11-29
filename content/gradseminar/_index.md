@@ -113,7 +113,7 @@ U.G. Abdulla, R. Poteau, <i>Mathematical Biosciences</i>, 305 (2018), 133-145.
  
 {{< /seminarEntry >}}
 
-{{< seminarEntry date="December 3, 2018" time="Monday 9:00am" loc="MAC" name="Meshal Shutaywi" affiliation="Math Sciences Department<br /> Florida Tech" title="Evaluating silhouette index for linearly and non-linearly separable groups"" >}}
+{{< seminarEntry date="December 3, 2018" time="Monday 9:00am" loc="MAC" name="Meshal Shutaywi" affiliation="Math Sciences Department<br /> Florida Tech" title="Evaluating silhouette index for linearly and non-linearly separable groups" >}}
 
 A common important task in data mining is grouping the objects based on their similarities. Clustering analysis is a well-known technique for grouping the objects using their features. Several clustering methods have been developed. Among them k-means is a linear clustering method that is broadly used. It divides the data elements into linearly separable groups where the objective function is to minimize the Euclidean distances between the elements and their associated cluster centers.
 
