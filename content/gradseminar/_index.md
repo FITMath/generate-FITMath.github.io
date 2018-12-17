@@ -8,6 +8,7 @@ tags = []
 title = "FIT Mathematical Sciences Graduate Seminar"
 description = "Florida Tech Mathematical Sciences Graduate Seminar"
 +++
+
 <div style="float: right; padding-left: 10px;">
 <img alt="" src="/img/FITlogo.png" width="100" height="100">
 </div>
@@ -22,7 +23,7 @@ Please send an email to <a href="mailto:aprinkey2009@my.fit.edu?subject=Departme
 </blockquote>
  </div>
 
-{{% seminarSetup %}}
+{{< seminar >}}
 
 {{< seminarEntry date="August 27, 2018" time="Monday 9:00am" loc="MAC" name="Adam Prinkey" affiliation="Math Sciences Department<br /> Florida Tech" title="Analysis of interfaces for the nonlinear double degenerate parabolic equation of turbulent filtration with absorption" >}}
 
@@ -31,18 +32,20 @@ We prove the short-time asymptotic formula for the interfaces and local solution
 \[
 u_t=\big(|(u^{m})_x|^{p-1}(u^{m})_x\big)_x-bu^{\beta},
 \]
-with $0 < mp < 1, \, (m, p > 0), \, 0 < \beta < 1, \, b \in \mathbb{R}, \, x \in \mathbb{R}, \text{ and } t \geq 0$.
+with $0 < mp < 1$, $(m, p > 0)$, $0 < \beta < 1$, $b \in \mathbb{R}$, $x \in \mathbb{R}$, and $t \geq 0$.
 
-Full classification is pursued in terms of the nonlinearity parameters  $m, p,\beta$ and asymptotics of the initial function near its support. In the case of an infinite speed of propagation of the interface, the asymptotic behavior of the local solution is classified at infinity. Similar classification for the slow diffusion case ($mp>1$) was presented in a recent paper 
+Full classification is pursued in terms of the nonlinearity parameters $m$, $p$, $\beta$ and asymptotics of the initial function near its support.
+In the case of an infinite speed of propagation of the interface, the asymptotic behavior of the local solution is classified at infinity. Similar classification for the slow diffusion case ($mp>1$) was presented in a recent paper
 <p>
 Abdulla, et al., <i>Mathematics and Computers in Simulation</i>, <b>153</b> (2018), 59-82.
 </p><p>
- 
+
  {{< /seminarEntry >}}
 
 {{< seminarEntry date="September 10, 2018" time="Monday 9:00am" loc="MAC" name="Evan Cosgrove" affiliation="Math Sciences Department<br /> Florida Tech" title="On the optimal control of the multiphase free boundary problems for nonlinear parabolic equations" >}}
 
-We consider the inverse Stefan type multiphase free boundary problem, in which information on the boundary heat flux is missing, and must be found along with the temperature. We generalize the method developed in 
+We consider the inverse Stefan type multiphase free boundary problem, in which information on the boundary heat flux is missing, and must be found along with the temperature.
+We generalize the method developed in
 
 <p>
 Abdulla & Poggi, <i>Applied Mathematics and Optimization</i>, 2018,
@@ -54,7 +57,7 @@ to pursue optimal control framework where control vector consists of the heat fl
 
 {{< seminarEntry date="September 17, 2018" time="Monday 9:00am" loc="MAC" name="Ali Haqverdiyev" affiliation="Math Sciences Department<br /> Florida Tech" title="Gradient method in Hilbert-Besov spaces for the optimal control of parabolic free boundary problems" >}}
 
-In this presentation I will talk about computational analysis of the inverse Stefan type free boundary problem, where information on the boundary heat flux is missing and must be found along with the temperature and the free boundary. We pursue optimal control framework introduced in 
+In this presentation I will talk about computational analysis of the inverse Stefan type free boundary problem, where information on the boundary heat flux is missing and must be found along with the temperature and the free boundary. We pursue optimal control framework introduced in
 
 <p>
 Abdulla, <i>Inverse Problems and Imaging</i>, 7, <b>2</b> (2013), 307-340; 10, <b>4</b> (2016), 869-898,
@@ -74,7 +77,7 @@ u_t=\big(|u_x|^{p-2}u_x\big)_x-bu^{\beta},
 with $0 < p < 2, \, \, 0 < \beta < 1, \, b \in \mathbb{R}, \, x \in \mathbb{R}, \text{ and } t \geq 0$.
 
 If interface is finite, it may expand, shrink, or remain stationary as a result of the competition of the diffusion and reaction terms near the interface, expressed in terms of the parameters $p,\beta, \text{sign}b$, and asymptotics of the initial function near its support. In some range of parameters strong domination of the diffusion causes infinite speed of propagation and interfaces are absent. In all cases with finite interfaces we prove the explicit formula for the interface and the local solution with accuracy up to constant coefficients. We prove explicit asymptotics of the local solution at infinity in all cases with infinite speed of propagation. The methods of the proof are based on nonlinear scaling laws, and a barrier technique using special comparison theorems in irregular domains with characteristic boundary curves. A full description of small-time behaviour of the interfaces and local solutions
-near the interfaces for slow diffusion case when $p>2$ is presented in a recent paper 
+near the interfaces for slow diffusion case when $p>2$ is presented in a recent paper
 
 <p>
 Abdulla & Jeli, <i>European J. Appl. Math.</i>, 28, <b>5</b>(2017), 827-853.
@@ -84,13 +87,13 @@ Abdulla & Jeli, <i>European J. Appl. Math.</i>, 28, <b>5</b>(2017), 827-853.
 
 {{< seminarEntry date="October 15, 2018" time="Monday 9:00am" loc="MAC" name="Kizza Nandyose" affiliation="Math Sciences Department<br /> Florida Tech" title="Time dependent analysis of stochastic games of three players with applications" >}}
 
-We study a class of antagonistic stochastic games of three players A,B, and T, 
-of whom the first two are active and the third is a passive player. The active players exchange 
-hostile attacks of random magnitudes with each other and also with player T exerted at random times. 
-At some point (ruin time), one of the two active players will be ruined, when the cumulative damages 
+We study a class of antagonistic stochastic games of three players A,B, and T,
+of whom the first two are active and the third is a passive player. The active players exchange
+hostile attacks of random magnitudes with each other and also with player T exerted at random times.
+At some point (ruin time), one of the two active players will be ruined, when the cumulative damages
 become unsustainable. Of interest are the status of all players upon  and also at each time  prior to .
- We obtain an analytic formula for the joint distribution of the named processes and demonstrate its closed form 
-in various analytic and computational examples. We illustrate the applicability of the game on a number of 
+ We obtain an analytic formula for the joint distribution of the named processes and demonstrate its closed form
+in various analytic and computational examples. We illustrate the applicability of the game on a number of
 practical models, including stock option trading and queueing systems with vacations and (N,T)-policy.
 
 {{< /seminarEntry >}}
@@ -105,12 +108,12 @@ Correlation coefficients do not perform consistently when they are calculated fo
 
 {{< seminarEntry date="November 19, 2018" time="Monday 9:00am" loc="MAC" name="Roby Poteau" affiliation="Math Sciences Department<br /> Florida Tech" title="Identification of parameters in systems biology" >}}
 
-We consider the inverse problem for the identification of the finite dimensional set of parameters for systems of nonlinear ordinary differential equations (ODEs) arising in systems biology. A numerical method which combines Bellman’s quasilinearization with sensitivity analysis and Tikhonov’s regularization is implemented. We apply the method to various biological models such as the classical Lotka–Volterra system, bistable switch model in genetic regulatory networks, gene regulation and repressilator models from synthetic biology. The numerical results and application to real data demonstrate the quadratic convergence. The results of the talk are published in a recent paper 
+We consider the inverse problem for the identification of the finite dimensional set of parameters for systems of nonlinear ordinary differential equations (ODEs) arising in systems biology. A numerical method which combines Bellman’s quasilinearization with sensitivity analysis and Tikhonov’s regularization is implemented. We apply the method to various biological models such as the classical Lotka–Volterra system, bistable switch model in genetic regulatory networks, gene regulation and repressilator models from synthetic biology. The numerical results and application to real data demonstrate the quadratic convergence. The results of the talk are published in a recent paper
 
 <p>
 Abdulla & Poteau, <i>Mathematical Biosciences</i>, <b>305</b> (2018), 133-145.
 </p><p>
- 
+
 {{< /seminarEntry >}}
 
 {{< seminarEntry date="December 3, 2018" time="Monday 9:00am" loc="MAC" name="Meshal Shutaywi" affiliation="Math Sciences Department<br /> Florida Tech" title="Evaluating silhouette index for linearly and non-linearly separable groups" >}}
@@ -121,4 +124,6 @@ Several methods have been developed to evaluate the clustering performance inclu
 
 We first simulated two distinct groups that are linearly separable. Then, we added Gaussian noise to spatial coordinates of each data point such that the original distinct groups slightly overlap. We increased the overlapped area of two groups gradually by increasing the standard deviation of noise. In this way, we generate multiple datasets with different overlapping extents. K-means clustering is applied to divide the simulated datasets into two clusters. Silhouette index is calculated for clustering results as well as true positive rate to assess the results. Average silhouette index and average true rate are computed for each noise level using several runs of Monte Carlo simulations. We then visualize average silhouette index and its confident interval with regard to noise level. We also plot the average true positive rate and its confidence interval vs. standard deviation of noise.
 
-{{% seminarBreakdown %}}
+{{< /seminarEntry >}}
+
+{{< /seminar >}}
