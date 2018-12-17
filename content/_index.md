@@ -5,3 +5,5 @@ draft: false
 ---
 
 <a href="gradseminar/">gradseminar/</a>
+
+<a href="macblog/">macblog/</a>
