@@ -1,3 +1,6 @@
 [submodule "themes/FITMathMinimal"]
 	path = themes/FITMathMinimal
 	url = https://github.com/FITMath/FITMathMinimal.git
+[submodule "content/macblog"]
+	path = content/macblog
+	url = https://github.com/FITMath/MacBlogFiles.git
