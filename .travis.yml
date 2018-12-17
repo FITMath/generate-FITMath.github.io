@@ -2,7 +2,7 @@ install:
   - rm -rf public || exit 0
 
 script:
-  - binaries/hugo --verbose
+  - make all
 
 deploy:
   provider: pages

@@ -1,7 +1,8 @@
 baseURL = "https://fitmath.github.io/"
 languageCode = "en-us"
-title = "FITMath"
+title = "FIT Math"
 theme = "FITMathMinimal"
+author = "Jonathan Goldfarb"
 
 [params]
     font = "Raleway" # should match the name on Google Fonts!
