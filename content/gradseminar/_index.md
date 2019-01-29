@@ -126,4 +126,38 @@ We first simulated two distinct groups that are linearly separable. Then, we add
 
 {{< /seminarEntry >}}
 
+{{< seminarEntry date="February 4, 2019" time="Monday 9:00am" loc="MAC" name="Ali Al-Obaidi" affiliation="Math Sciences Department<br /> Florida Tech" title="On Laplace-Stieltjes exponentials of modulated Poisson measures and their applications" >}}
+
+Let $(\Omega,\mathcal{F},\mathbb{P})$ be a probability
+space $\left(\mathfrak{X},\mathcal{B}_\mathfrak{X}\right)$ be a Borel
+$\sigma$-algebra induced by a $\sigma$-compact Hausdorff space, and $\pi$ be
+a marked Poisson random measure (r.m.) on $\mathcal{F}\otimes\mathcal{B}_\mathfrak{X}$ directed by a (deterministic)
+Borel measure $\mu\in\mathfrak{M}_\mathfrak{X}$. Then,
+$\mathbb{E}e^{\theta\pi}=e^{\mu\left[L\left(\theta\right)-1\right]}$ ($L$ is the
+Laplace-Stieltjes transform of the marks) is the Laplace-type functional of
+r.m. $\pi$.
+
+Suppose now that $\pi$ is perturbed by a \textquotedblleft third-party\textquotedblright
+$\varSigma$-measurable stochastic process $\eta$ ($\varSigma$ is a
+sub-$\sigma$-algebra of $\mathcal{F}$) that makes $\pi$ change its
+parameters, including the intensity rate, distribution of marks
+$(L\left(\theta\right))$, and the led-measure $\mu,\,$subject to the
+evolution of $\eta$. We denote such modulation by $\pi_\eta$. Previously, we
+proved that such new construction is also a random measure (\textit{modulated by}
+$\eta$). Now we target an associated Laplace-type functional
+$\mathbb{E}e^{\theta\pi_\eta}$. Among other related ramifications of this analysis, it
+is stochastic process
+
+
+\[S\left(t\right)=S\left(0\right)e^{\theta\pi_\eta}\]
+in an analog to the geometric Brownian motion that we refer to as a \textit{geometric
+Poisson random measure modulated by} $\eta$. This can find various
+applications, in particular, to the stock market. Of further interest, is the
+exponential intensity of the process in the form of
+
+\[lim_{t\rightarrow\infty}\mathbb{E}\left[e^{\frac{1}{t}\pi_\eta\left[0,t\right]}\big|\varSigma\right]\]
+($\left[0,t\right]\subseteq\mathbb{R}_{+})$ that represents the mean
+exponential return rate of a stock modulated by a semi-Markov process. We
+find a closed-form expression for this functional.
+
 {{< /seminar >}}
