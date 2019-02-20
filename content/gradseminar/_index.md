@@ -159,4 +159,12 @@ exponential intensity of the process in the form of
 exponential return rate of a stock modulated by a semi-Markov process. We
 find a closed-form expression for this functional.
 
+{{< /seminarEntry >}}
+
+{{< seminarEntry date="February 25, 2019" time="Monday 9:00am" loc="MAC" name="Farag Hamad" affiliation="Math Sciences Department<br /> Florida Tech" title="A hybrid method to estimate the full parametric hazard model" >}}
+
+The survival analysis has been recently emerging by finding many new applications in several fields such as biology, medicine, demography, economics, engineering, and sociology. The goal of survival analysis is to fit a model that illustrates the relationship between the event’s time and some independent factors that might affect the survival time. Several approaches have been used for modeling survival data including parametric, nonparametric, and semi-parametric. 
+
+We propose a hybrid method to estimate a full parametric hazard model. In the proposed method, the nonparametric estimate of the survival function by Kaplan Meier, and the parametric estimate of the logistic function in the Cox proportional hazard are combined to estimate the parameters of a full parametric hazard model. We compare the estimated hazard using the proposed method and the Cox model. The results show that the estimated hazard using hybrid method is improved in comparison with estimated hazard using the Cox model. The performance of each method is measured based on the estimated parameters of the distribution as well as goodness of fit of the model. Monte Carlo simulations carried out in order to evaluate the performance of the proposed method. Moreover, performance of these methods are compared using simulated and real data. The results show that the proposed hybrid method provided better estimates in comparison with the Cox model. 
+
 {{< /seminar >}}
