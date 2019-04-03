@@ -167,4 +167,9 @@ The survival analysis has been recently emerging by finding many new application
 
 We propose a hybrid method to estimate a full parametric hazard model. In the proposed method, the nonparametric estimate of the survival function by Kaplan Meier, and the parametric estimate of the logistic function in the Cox proportional hazard are combined to estimate the parameters of a full parametric hazard model. We compare the estimated hazard using the proposed method and the Cox model. The results show that the estimated hazard using hybrid method is improved in comparison with estimated hazard using the Cox model. The performance of each method is measured based on the estimated parameters of the distribution as well as goodness of fit of the model. Monte Carlo simulations carried out in order to evaluate the performance of the proposed method. Moreover, performance of these methods are compared using simulated and real data. The results show that the proposed hybrid method provided better estimates in comparison with the Cox model. 
 
+{{< /seminarEntry >}}
+
+{{< seminarEntry date="April 8, 2019" time="Monday 9:00am" loc="MAC" name="Nancy E. Garmer" affiliation="Evans Library<br /> Florida Tech" title="Evans Library: What we know and what you should know about publishing, research and literature searches" >}}
+
+
 {{< /seminar >}}
